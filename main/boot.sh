@@ -22,7 +22,7 @@ tar -xvf root.tar.xz
 rm -rf akuh.zip root.zip root.tar.xz
 clear
 echo "-: Welcome to Root (Debian)! :-"
-echo "-: It is highly reccomended you run pkg.sh in the Root folder first before Installing anything. :-"
-echo "-: You can clean ReplRoot by running clean.sh in the Root folder. :-"
+echo "-: It is highly reccomended you run pkg.sh in the main folder first before Installing anything. :-"
+echo "-: You can clean Root by running clean.sh in the main folder. :-"
 ./dist/proot -S . /bin/bash
 fi
